@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class enemyBehavior : MonoBehaviour {
 	[Header("Enemy Health")]
-	public int startingHealth = 1; //the max health of enemy gameObject
+	public int startingHealth = 100; //the max health of enemy gameObject
 	public int currentHealth; //current health of the enemy gameObject
 
 	// Use this for initialization
@@ -19,7 +19,10 @@ public class enemyBehavior : MonoBehaviour {
 		if (currentHealth <= 0)
 		{
 			Die();
+       
 		}
+
+        Debug.Log(currentHealth);
 	}
 
 	void Die()

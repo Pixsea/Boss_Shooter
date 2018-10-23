@@ -134,15 +134,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4407461480210796, guid: 11e2ba0a11d7a6a45a24d77ff0b2ebf1, type: 2}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4407461480210796, guid: 11e2ba0a11d7a6a45a24d77ff0b2ebf1, type: 2}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4407461480210796, guid: 11e2ba0a11d7a6a45a24d77ff0b2ebf1, type: 2}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4407461480210796, guid: 11e2ba0a11d7a6a45a24d77ff0b2ebf1, type: 2}
       propertyPath: m_LocalRotation.w
@@ -178,6 +178,14 @@ Prefab:
     - target: {fileID: 114840454145652576, guid: 11e2ba0a11d7a6a45a24d77ff0b2ebf1,
         type: 2}
       propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4407461480210796, guid: 11e2ba0a11d7a6a45a24d77ff0b2ebf1, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4407461480210796, guid: 11e2ba0a11d7a6a45a24d77ff0b2ebf1, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -337,7 +345,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 3878040d1d7dd7544941fc2e16846973, type: 3}
+  m_Sprite: {fileID: 21300000, guid: db61501051c9aac41b0e0a48f9f01dca, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -377,7 +385,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3.4, y: 3.4}
+    oldSize: {x: 2.56, y: 2.56}
     newSize: {x: 3.4, y: 3.4}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -417,7 +425,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50d4a58cef412e84e964dc84665ad5ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingHealth: 1
+  startingHealth: 100
   currentHealth: 0
 --- !u!1 &1890646880
 GameObject:
